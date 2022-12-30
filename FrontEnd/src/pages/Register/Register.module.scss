@@ -1,0 +1,90 @@
+.register__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.register__form {
+    padding: 177px 130px 33px 95px;
+    width: 1200px;
+    border-radius: 10px;
+
+    .form__wrap {
+        display: flex;
+        gap: 10rem;
+        justify-content: space-around;
+    }
+
+    .register__form-img {
+        width: 450px;
+        transition: ease-in-out 0.4s;
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+
+    .form__right {
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+        align-items: flex-start;
+
+        h1 {
+            font-size: 3rem;
+            color: #333;
+            line-height: 1.2;
+            width: 100%;
+            padding-bottom: 24px;
+        }
+
+        .already {
+            margin: 0 auto;
+            padding-top: 12px;
+            font-size: 1.3rem;
+            color: var(--text-color-500);
+
+            a {
+                margin-left: 8px;
+                cursor: pointer;
+                text-decoration: none;
+                color: #0066CC;
+                transition: var(--transition);
+            }
+
+            a:hover {
+                color: var(--color-success);
+            }
+        }
+
+        .date-of-birth-group {
+            display: flex;
+            gap: 2rem;
+        }
+
+        .message {
+            display: flex;
+            font-size: 1.2rem;
+            color: red;
+            justify-content: flex-end;
+            float: right;
+        }
+
+        .form__contact {
+            width: 100%;
+            margin-top: 136px;
+            display: flex;
+            justify-content: center;
+            cursor: pointer;
+            font-size: 13px;
+
+            a {
+                margin-left: 4px;
+                color: #0066CC;
+            }
+
+            a:hover {
+                color: var(--color-success);
+            }
+        }
+    }
+}

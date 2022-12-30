@@ -1,0 +1,17 @@
+.filters {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+
+    .select {
+        min-width: 240px;
+        z-index: 999;
+    }
+}
+
+.search {
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+    outline: none;
+    border-radius: 6px;
+}

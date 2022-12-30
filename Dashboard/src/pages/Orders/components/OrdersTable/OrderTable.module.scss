@@ -1,0 +1,15 @@
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    .info-item {
+        display: flex;
+        gap: 1rem;
+    }
+
+    label,p {
+        font-size: 1.4rem;
+        margin: 0;
+    }
+}

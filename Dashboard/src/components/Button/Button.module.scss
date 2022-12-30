@@ -1,0 +1,110 @@
+.wrapper {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.6rem;
+    font-weight: 500;
+    padding: 9px 16px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    user-select: none;
+    transition: var(--transition);
+
+    + .wrapper {
+        margin-left: 8px;
+    }
+
+    &.disabled {
+        pointer-events: none;
+        opacity: 0.5;
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+.wrapper:active {
+    scale: 1.03;
+}
+
+.title {
+    font-family: 'Poppins', sans-serif;
+    white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+}
+
+.icon + .title,
+.title + .icon {
+    margin-left: 4px;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    width: 24px;
+    text-align: center;
+}
+
+// Button type
+.rounded {
+    border-radius: 999px;
+    box-shadow: 0 2px 8px rgb(0 0 0 / 6%);
+    border-color: rgba(22, 24, 35, 0.12);
+
+    &:hover {
+        border-color: rgba(22, 24, 35, 0.2);
+        background-color: rgba(22, 24, 35, 0.03);
+    }
+}
+
+.outline {
+    color: var(--color-secondary);
+    border-color: var(--color-secondary);
+
+    &:hover {
+        border-color: var(--color-secondary);
+        background-color: rgba(254, 44, 85, 0.06);
+    }
+}
+
+.primary {
+    background-color: var(--color-secondary);
+    color: var(--white-color);
+    border-color: var(--color-secondary);
+
+    &:hover {
+        border-color: var(--color-secondary);
+        opacity: 0.9;
+    }
+}
+
+.text {
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+//Button size
+.small {
+    min-width: 88px;
+    padding: 4px 16px;
+}
+
+.smallest {
+    min-width: 60;
+    padding: 4px 8px;
+    font-size: 1.2rem;
+}
+
+.smallest .icon + .title,
+.smallest .title + .icon {
+    margin-left: 0px;
+}
+
+.large {
+    min-width: 148px;
+    padding: 14px 16px;
+}

@@ -1,0 +1,96 @@
+.wrapper {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.6rem;
+    padding: 9px 16px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    user-select: none;
+    transition: var(--transition);
+
+    + .wrapper {
+        margin-left: 8px;
+    }
+
+    &.disabled {
+        pointer-events: none;
+        opacity: 0.5;
+    }
+}
+
+.title {
+    font-family: 'Poppins', sans-serif;
+}
+
+.rounded {
+    border-radius: 999px;
+    box-shadow: 0 2px 8px rgb(0 0 0 / 6%);
+    border-color: rgba(22, 24, 35, 0.12);
+
+    &:hover {
+        border-color: rgba(22, 24, 35, 0.2);
+        background-color: rgba(22, 24, 35, 0.03);
+    }
+}
+
+.outline {
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+
+    &:hover {
+        border-color: var(--primary-color);
+        background-color: rgba(254, 44, 85, 0.06);
+    }
+}
+
+.primary {
+    background-color: var(--color-success);
+    color: var(--white-color);
+    border-color: var(--color-success);
+
+    &:hover {
+        border-color: var(--color-success);
+        opacity: 0.9;
+    }
+}
+
+.error {
+    background-color: var(--color-error);
+    color: var(--white-color);
+    border-color: var(--color-error);
+
+    &:hover {
+        border-color: var(--color-error);
+        opacity: 0.9;
+    }
+}
+
+.success {
+    background-color: var(--color-success);
+    color: var(--white-color);
+    border-color: var(--color-success);
+
+    &:hover {
+        border-color: var(--color-success);
+        opacity: 0.9;
+    }
+}
+
+.text {
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.small {
+    min-width: 88px;
+    font-size: 13px;
+    padding: 4px 16px;
+}
+
+.large {
+    min-width: 148px;
+    padding: 14px 16px;
+}

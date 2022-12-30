@@ -1,0 +1,21 @@
+.mySwiper {
+    width: 100%;
+    height: 633px;
+}
+
+.swiper {
+    max-width: 100%;
+}
+
+.swiper, .swiper-product {
+    width: 500px;
+}
+
+.mySwiper {
+    width: 100%;
+    height: 677px;
+}
+
+.slide-category {
+    width: 100%;
+}

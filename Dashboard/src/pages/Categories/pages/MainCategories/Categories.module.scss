@@ -1,0 +1,38 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 2rem;
+    padding-bottom: 2rem;
+}
+
+.left-content {
+    display: flex;
+    flex-direction: column;
+    // max-width: 916px;
+    gap: 2rem;
+    
+    .preview-title {
+        position: relative;
+        color: var(--title-color);
+        font-size: 1.6rem;
+        margin-bottom: 30px;
+    }
+
+    .preview-title::before {
+        content: "";
+        position: absolute;
+        top: 140%;
+        width: 100%;
+        border-bottom: 1px solid #ccc;
+    }
+}
+
+.categories {
+
+    .link-to-product {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 20px;
+    }
+}

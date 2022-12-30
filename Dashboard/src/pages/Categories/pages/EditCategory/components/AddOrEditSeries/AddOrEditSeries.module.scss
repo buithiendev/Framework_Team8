@@ -1,0 +1,15 @@
+.series__container {
+
+    .list-series {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        padding: 20px 0; 
+    }
+
+    .form-wrap {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+}

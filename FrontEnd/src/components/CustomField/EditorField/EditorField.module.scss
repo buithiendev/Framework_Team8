@@ -1,0 +1,19 @@
+.wrap {
+    label {
+        font-size: 1.4rem;
+        font-weight: 500;
+    }
+
+    label > span {
+        color: red;
+        font-size: 1.2rem;
+        margin-right: 3px;
+    }
+
+    .validate__error {
+        position: absolute;
+        font-size: 1.1rem;
+        right: 20px;
+        color: #eb475a;
+    }
+}

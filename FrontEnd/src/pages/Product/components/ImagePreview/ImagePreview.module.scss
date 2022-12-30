@@ -1,0 +1,33 @@
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    align-items: center;
+    flex: 1;
+}
+
+.thumb-group {
+    width: 100%;
+    background-color: rgb(245,245,247);
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 48px 0;
+}
+
+.image-prev {
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+    border-radius: 8px;
+}
+
+.img-item {
+    max-height: 100px;
+    max-width: 100px;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: white;
+    border: 1px solid #ccc
+}

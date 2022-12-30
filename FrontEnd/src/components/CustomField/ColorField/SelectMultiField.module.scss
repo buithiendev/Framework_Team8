@@ -1,0 +1,35 @@
+label {
+    font-size: 1.4rem;
+    color: var(--text-color);
+    font-weight: 500;
+}
+
+label > span {
+    color: red;
+    font-size: 1.2rem;
+    margin-right: 3px;
+}
+
+.select-input {
+    border-radius: 6px;
+}
+
+.color-group {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
+    input {
+        max-width: 130px;
+        padding: 4px 8px;
+        border-radius: 6px;
+        border: 1px solid #ccc;
+        margin-left: 4px;
+    }
+
+    .message-valid {
+        color: red;
+        margin: 0;
+    }
+}

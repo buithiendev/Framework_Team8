@@ -1,0 +1,22 @@
+.variants {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.product-price {
+    margin-top: 18px;
+    font-size: 2.4rem;
+    color: rgb(0,102,204);
+}
+
+.variants-item {
+
+}
+
+.list-item {
+    margin-top: 12px;
+    display: flex;
+    gap: 2rem;
+}
+

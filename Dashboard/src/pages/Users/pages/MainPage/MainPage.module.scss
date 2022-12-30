@@ -1,0 +1,12 @@
+.feature {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.content {
+    width: 100%;
+
+    .table {
+        height: 580px;
+    }
+}

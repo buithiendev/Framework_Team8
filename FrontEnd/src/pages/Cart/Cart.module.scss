@@ -1,0 +1,47 @@
+.container {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ededed;
+    padding-bottom: 24px;
+    min-height: calc(100vh - 64px - 550px);
+}
+
+.slider {
+    position: relative;
+    width: 100%;
+
+
+    img {
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+    }
+
+    h4 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        color: white;
+        font-size: 4rem;
+        transform: translate(-50%, -50%);
+    }
+}
+
+.wrapper {
+    max-width: 1186px;
+    display: grid;
+    grid-template-columns: 3fr 1fr; 
+    padding: 40px 0;
+    gap: 1rem;
+}
+
+.info-payment {
+    margin-top: 18px;
+
+    >h2 {
+        margin-bottom: 8px;
+        color: var(--primary-color);
+    }
+}

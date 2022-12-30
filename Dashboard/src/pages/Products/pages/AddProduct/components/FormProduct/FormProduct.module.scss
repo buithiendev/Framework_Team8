@@ -1,0 +1,17 @@
+.form-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.group {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.left-group {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}

@@ -1,0 +1,14 @@
+.switch-field__group {
+
+    label {
+        font-size: 1.6rem;
+        color: var(--text-color);
+        font-weight: 500;
+    }
+
+    label > span {
+        color: red;
+        font-size: 1.2rem;
+        margin-right: 3px;
+    }
+}

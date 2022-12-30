@@ -1,0 +1,19 @@
+.default__layout {
+    display: flex;
+    width: 100vw;
+}
+
+.container {
+    position: relative;
+    flex: 1;
+    transition: var(--transition);
+}
+
+.content {
+    overflow-x: scroll;
+    height: calc(100vh - var(--height-header));
+    &::-webkit-scrollbar {
+        width: 8px;
+        height: 0px;
+    }
+}

@@ -1,0 +1,30 @@
+.form-container {
+    padding: 20px 40px;
+}
+
+.form {
+    margin: 20px 0;
+    padding: 15px;
+    border-radius: 6px;
+
+    background-color: var(--primary-color-light);
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    width: 50%;
+
+    button {
+        width: 40%;
+    }
+}
+
+.field-group {
+    margin: 20px 10px;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
+    label {
+        width: 100px;
+        font-weight: 500;
+    }
+
+}

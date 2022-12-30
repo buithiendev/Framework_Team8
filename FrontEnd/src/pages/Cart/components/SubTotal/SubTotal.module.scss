@@ -1,0 +1,53 @@
+.sub-total {
+    padding: 20px;
+    border-radius: 6px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.discount-code {
+    display: flex;
+
+    input {
+        border-bottom-left-radius: 8px;
+        border-top-left-radius: 8px;
+        padding: 12px 12px;
+        border-left: 1px solid #ccc;
+        border-top: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+        border-right: none;
+        outline: none;
+        font-size: 1.4rem;
+        font-weight: 500;
+    }
+
+    button {
+        border: 1px solid #ccc;
+        border-radius: 0;
+        border-bottom-right-radius: 8px;
+        border-top-right-radius: 8px;
+    }
+}
+
+.price-details {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.price-item{
+    display: flex;
+    justify-content: space-between;
+
+    label {
+        font-size: 1.4rem;
+        color: var(--text-color);
+    }
+
+    p {
+        font-weight: 600;
+    }
+}
+

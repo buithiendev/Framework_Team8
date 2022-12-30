@@ -1,0 +1,28 @@
+.content__container {
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+    gap: 4rem;
+
+    .form__update-user {
+        background-color: var(--white-color);
+        border-radius: 6px;
+        box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+    }
+
+    .form__update-user > .form-title {
+        position: relative;
+        padding: 20px 30px;
+        font-weight: 500;
+        color: var(--title-color);
+
+        &::after {
+            content: '';
+            position: absolute;
+            height: 1px;
+            width: 100%;
+            top: 85%;
+            left: 0;
+            border-bottom: 1px solid #ccc;
+        }
+    }
+}
